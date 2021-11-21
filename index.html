@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, user-scalable=no,
+    initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Домашка</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="container">
+<div style="display: flex"></div>
+<div class="main_screen">
+    <h3>Оставить заявку</h3>
+    <p>Пишите нам и будем рады предложить<br>
+        вам сотрудничество</p>
+    <form name="search" action="" method="post">
+        <p><label for="FIRST_NAME"></label>
+        <input class="type_input" name="inputBox" id="FIRST_NAME" placeholder="Имя"></p>
+        <p><label for=phone_number></label>
+            <input class="type_input" name="inputBox" type="tel" id="phone_number" placeholder="Телефон"></p>
+        <p><label for="email"></label>
+            <input class="type_input" name="inputBox" type="email" id="email" placeholder="Почта"></p>
+        <button class="submit" formaction="handler.php" formmethod="post">Отправить</button>
+        <label for="i_agree"><br>
+        <input type="checkbox" name="i_agree" id="i_agree">
+            Я согласен, чтоб мне позвонили в течении дня!</label><br>
+        <div>Мой пол (заполнение по желанию)</div>
+            <label for="women" style="position: relative">
+                <input type="radio" name="Мой пол<" id="women">women</label>
+            <label for="men" style="position: relative">
+                <input type="radio" name="Мой пол<" id="men">men</label><br>
+        <textarea>
+            Напишите сюда место рождения, а справа выберите год рождения (заполнение по желанию)
+            </textarea>
+            <select>
+                <option>1983</option>
+                <option>1984</option>
+                <option>1985</option>
+                <option>1986</option>
+                <option>1987</option>
+                <option>1988</option>
+                <option>1989</option>
+                <option>1991</option>
+                <option>1992</option>
+                <option>1993</option>
+                <option>1994</option>
+                <option>1995</option>
+                <option>1996</option>
+                <option>1997</option>
+                <option>1998</option>
+                <option>1999</option>
+                <option>2000</option>
+                <option>2001</option>
+            </select>
+</form>
+</div>
+</body>
+    </html>

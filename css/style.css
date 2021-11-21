@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+margin: 0;
+}
+html
+{
+    background-image: url("../images/rectangle.jpg");
+}
+.main_screen
+{
+    padding-top: 63px;
+    padding-bottom: 144px;
+    padding-left: 200px;
+    max-width: 1200px;
+}
+.container
+{
+    max-width: 1200px;
+    margin: auto;
+}
+.main_screen h3
+{
+color: #3589E8;
+    padding-bottom: 14px;
+    font-size: 33px;
+}
+.main_screen p
+{
+    color: #000000;
+    padding-bottom: 46px;
+    font-size: 17px;
+}
+label
+{
+    display: block;
+}
+.type_input
+{
+    font-size: 25px;
+    text-align: left;
+    padding: 23px;
+    height: 74px;
+    width: 600px;
+}
+.submit
+{
+    font-size: 21px;
+    text-align: left;
+    height: 124px;
+    width: 650px;
+    background: #3589E8;
+    color:#FFFFFF;
+    padding: 23px;
+}
+textarea
+{
+    width: 600px;
+    height: 100px;
+    resize: vertical;
+    color: #67b400;
+    text-align: center;
+}
